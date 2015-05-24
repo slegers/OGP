@@ -1,0 +1,11 @@
+1	Go to test file (.java)
+2	Right-click
+3	Run As > Run Config
+4	Go to tab 'Arguments'
+5	in VM arguments add:
+
+		-Djava.net.preferIPv4Stack=true
+
+6	Apply changes
+7	Close Run Config
+8	Rerun JUnit tests
